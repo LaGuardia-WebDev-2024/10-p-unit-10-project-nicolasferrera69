@@ -1,46 +1,46 @@
 body {
-  background-color: black;
+  background-color: purple;
   text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; 
-  margin-top: 10%;
   font-family: Georgia, serif;
 }
 
-html{
-  height: 100%;
-  width: 100%;
-}
-
-#myCanvas {
-  border: 1px solid black;
-}
-
-.container{
+.container {
   display: flex;
-  flex-wrap: wrap;
-  background-color: white;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
 }
 
-.pic{
+.pic {
   height: 600px;
   width: 400px;
   object-fit: cover;
-  border: 1px solid black;
 }
 
-h2{
-  color: black;
+#myCanvas {
+  border: 3px solid white;
+}
+#dotsBoxes {
+  width: 300px;
+  border: 3px solid white;
+  margin-top: 20px;
+}
+.dots-boxes-img {
+  width: 300px;
+  border: 3px solid white;
+  margin-top: 20px;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: lightpink;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
-#start{
-  text-align: left;
-}
-
-#end{
-  text-align: right;
+h4 {
+  color: lightblue;
+  font-size: 18px;
+  text-decoration: underline;
 }
